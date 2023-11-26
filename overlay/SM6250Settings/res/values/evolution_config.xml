@@ -9,7 +9,7 @@
     <bool name="config_show_build_status">true</bool>
 
     <!-- Battery Health -->
-    <string name="config_batteryRemainingCapacityNode">/sys/class/power_supply/bms/charge_counter</string>
+    <string name="config_batteryRemainingCapacityNode">/sys/class/power_supply/bms/charge_full</string>
     <string name="config_batteryDesignCapacityNode">/sys/class/power_supply/bms/charge_full_design</string>
 
 </resources>
