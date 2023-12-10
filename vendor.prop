@@ -130,6 +130,12 @@ ro.crypto.volume.options=::v2
 # Dalvik
 dalvik.vm.dex2oat64.enabled=true
 
+# Data
+persist.vendor.data.iwlan.enable=true
+persist.vendor.data.mode=concurrent
+persist.vendor.sys.cnd.iwlan=1
+ro.vendor.use_data_netmgrd=true
+
 # Display
 ro.surface_flinger.force_hwc_copy_for_virtual_displays=true
 ro.surface_flinger.has_wide_color_display=true
@@ -190,12 +196,18 @@ ro.vendor.extension_library=libqti-perfd-client.so
 
 # Radio
 persist.radio.multisim.config=dsds
+persist.vendor.radio.add_power_save=1
+persist.vendor.radio.apm_sim_not_pwdn=1
 persist.vendor.radio.custom_ecc=1
 persist.vendor.radio.data_con_rprt=1
+persist.vendor.radio.enableadvancedscan=true
+persist.vendor.radio.enable_temp_dds=true
+persist.vendor.radio.manual_nw_rej_ct=1
 persist.vendor.radio.procedure_bytes=SKIP
 persist.vendor.radio.rat_on=combine
 persist.vendor.radio.snapshot_enabled=1
 persist.vendor.radio.snapshot_timer=5
+persist.vendor.radio.sib16_support=1
 ro.telephony.default_network=22,20
 
 # Sensors
